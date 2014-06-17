@@ -6671,13 +6671,6 @@ th.hide-for-touch {
 
 
 
-div#pictures li{
-  width:200px;
-  height:200px;
-}
-
-
-
 /*----------------------------------------------------------------*/
 div#projects_page{
   background-image:url("/images/the_iron_yard.jpg");
@@ -6699,7 +6692,12 @@ div.container h1{
   background-color:black;
 }
 /*----------------------------------------------------------------*/
-div#pictures li{
+
+div#pictures{
+  margin-left:150px;
+  margin-right:150px;
+}
+div#pictures img{
   height:200px;
   width:200px;
 }
