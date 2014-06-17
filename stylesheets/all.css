@@ -6675,8 +6675,26 @@ div#pictures li{
   width:200px;
 }
 
+
+
+/*----------------------------------------------------------------*/
 div#projects_page{
-  background-image:url("/images/american_tobacco.jpg");
+  background-image:url("/images/the_iron_yard.jpg");
   background-size:cover;
-  height:1129px;
+  height:650px;
 }
+
+div#projects_page ul{
+  color:lightgrey;
+  font-size:40px;
+}
+
+div#projects_page a{
+  color:white;
+}
+div.container h1{
+  color:lightgrey;
+  text-align: center;
+  background-color:black;
+}
+/*----------------------------------------------------------------*/
