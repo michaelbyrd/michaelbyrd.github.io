@@ -6699,3 +6699,7 @@ div.container h1{
   background-color:black;
 }
 /*----------------------------------------------------------------*/
+div#pictures li{
+  height:200px;
+  width:200px;
+}
