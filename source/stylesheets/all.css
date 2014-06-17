@@ -3,3 +3,35 @@
  */
 
 @charset "utf-8";
+
+
+/*----------------------------------------------------------------*/
+div#projects_page{
+  background-image:url("/images/the_iron_yard.jpg");
+  background-size:cover;
+  height:650px;
+}
+
+div#projects_page ul{
+  color:lightgrey;
+  font-size:40px;
+}
+
+div#projects_page a{
+  color:white;
+}
+div.container h1{
+  color:lightgrey;
+  text-align: center;
+  background-color:black;
+}
+/*----------------------------------------------------------------*/
+
+div#pictures{
+  margin-left:150px;
+  margin-right:150px;
+}
+div#pictures img{
+  height:200px;
+  width:200px;
+}

@@ -6,26 +6,42 @@ title: Welcome to Middleman
   %ul.title-area
     %li.name
       %h1
-        %a{href: "#"} My Site
+        %a{href: "/index.html"} Home
     / Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone
-    %li.toggle-topbar.menu-icon
-      %a{href: "#"}
-        %span Menu
   %section.top-bar-section
-    / Right Nav Section
-    %ul.right
-      %li.active
-        %a{href: "#"} Right Button Active
-      %li.has-dropdown
-        %a{href: "#"} Right Button Dropdown
-        %ul.dropdown
-          %li
-            %a{href: "#"} First link in dropdown
-    / Left Nav Section
     %ul.left
       %li
-        %a{href: "#"} Left Nav Button
+        %a{href: "/about_me.html"} About Me
+    %ul.left
+      %li
+        %a{href:"/the_iron_yard.html" } The Iron Yard
 
 .welcome
   %h1 Michael Byrd
-  %a.button{href: "https://github.com/michaelbyrd"} My GitHub website
+
+%div#links
+  %ul
+    - data.links.each do |key, value|
+      %li=link_to key, value
+
+
+-# ---
+-# pageable: true
+-# per_page: 10
+-# ---
+-# - if paginate && num_pages > 1
+-#   %p
+-#     Page #{page_number} of #{num_pages}
+-#   - if prev_page
+-#     %p= link_to 'Previous page', prev_page
+-# - page_articles.each_with_index do |article, i|
+-#   %h2
+-#     = link_to article.title, article
+-#     %span= article.date.strftime('%b %e')
+-#   /
+-#     use article.summary(250) if you have Nokogiri available to show just
+-#     the first 250 characters
+-#   = article.body
+-# - if paginate
+-#   - if next_page
+-#     %p= link_to 'Next page', next_page
