@@ -6674,3 +6674,7 @@ th.hide-for-touch {
 div#pictures li{
   width:200px;
 }
+
+div#projects_page{
+  background-image:url("/images/bass.jpg");
+}
