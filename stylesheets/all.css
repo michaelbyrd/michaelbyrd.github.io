@@ -6676,5 +6676,6 @@ div#pictures li{
 }
 
 div#projects_page{
-  background-image:url("/images/bass.jpg");
+  background-image:url("/images/american_tobacco.jpg");
+  background-size:cover;
 }
