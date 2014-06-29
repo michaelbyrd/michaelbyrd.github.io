@@ -4,6 +4,10 @@
 
 @charset "utf-8";
 
+div.container{
+  margin-left:10%;
+  margin-right:10%:
+}
 
 /*----------------------------------------------------------------*/
 div#projects_page{
