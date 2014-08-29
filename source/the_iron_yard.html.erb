@@ -1,0 +1,28 @@
+<nav class="top-bar">
+<ul class="title-area">
+  <li class="name">
+  <h1><a href="/index.html">Home</a></h1>
+  </li>
+</ul>
+<section class="top-bar-section">
+<ul class="left">
+  <li>
+  <a href="/about_me.html">Pictures</a>
+  </li>
+</ul>
+</section>
+</nav>
+<div id="projects_page">
+  <div>
+    <h1>
+      My Iron Yard Projects
+    </h1>
+  </div>
+  <div>
+    <ul>
+      <% data.projects.each do |key, value| %>
+        <li><%= link_to key, value %></li>
+      <% end %>
+    </ul>
+  </div>
+</div>
