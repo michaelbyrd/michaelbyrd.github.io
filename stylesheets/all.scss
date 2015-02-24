@@ -1,0 +1,10 @@
+@import "bourbon/bourbon";
+@import "base/base";
+@import "neat";
+
+h1 {
+  @include span-columns(3);
+  color: red;
+  border-style: solid;
+  border-color: black;
+}
