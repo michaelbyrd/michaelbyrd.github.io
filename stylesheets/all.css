@@ -1,9 +1,10 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin: 2em;
 }
+p {
 
+}
 h1 {
 }
 
@@ -11,6 +12,7 @@ h1 {
   padding-left: 1em;
   padding-right: 1em;
   border: 1px solid black;
+  border-radius: 1em;
   color: grey;
 }
 
@@ -19,6 +21,34 @@ h1 {
 }
 
 .hackstarter a {
+  text-decoration: none;
+  color: grey;
+}
+
+.festivit {
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border: 1px solid black;
+  border-radius: 1em;
+  color: grey;
+}
+
+.festivit a {
+  text-decoration: none;
+  color: grey;
+}
+
+.synthsandbox {
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border: 1px solid black;
+  border-radius: 1em;
+  color: grey;
+}
+
+.synthsandbox a {
   text-decoration: none;
   color: grey;
 }
