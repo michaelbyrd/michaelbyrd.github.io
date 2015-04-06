@@ -1,2 +1,24 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
 h1 {
+}
+
+.hackstarter {
+  padding-left: 1em;
+  padding-right: 1em;
+  border: 1px solid black;
+  color: grey;
+}
+
+.hackstarter span {
+  color: #fd8724;
+}
+
+.hackstarter a {
+  text-decoration: none;
+  color: grey;
 }
