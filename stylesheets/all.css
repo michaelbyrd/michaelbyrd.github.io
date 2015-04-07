@@ -32,6 +32,11 @@ h1 {
   width: 100%;
 }
 
+.hackstarter .img-wrapper {
+  overflow: hidden;
+  height: 570px;
+}
+
 .festivit {
   margin-top: 1em;
   padding-left: 1em;
@@ -45,6 +50,11 @@ h1 {
 .festivit a {
   text-decoration: none;
   color: grey;
+}
+
+.festivit .img-wrapper {
+  overflow: hidden;
+  margin-bottom: 0.5em;
 }
 
 .festivit img {
@@ -66,9 +76,10 @@ h1 {
   color: grey;
 }
 
-.img-wrapper {
+.synthsandbox .img-wrapper {
   overflow: hidden;
   height: 480px;
+  margin-bottom: 0.5em;
 }
 .synthsandbox img {
   width: 100%;
