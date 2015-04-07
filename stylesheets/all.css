@@ -25,6 +25,10 @@ h1 {
   color: grey;
 }
 
+.hackstarter img {
+  width: 50%;
+}
+
 .festivit {
   margin-top: 1em;
   padding-left: 1em;
@@ -39,6 +43,10 @@ h1 {
   color: grey;
 }
 
+.festivit img {
+  width: 50%;
+}
+
 .synthsandbox {
   margin-top: 1em;
   padding-left: 1em;
@@ -51,4 +59,8 @@ h1 {
 .synthsandbox a {
   text-decoration: none;
   color: grey;
+}
+
+.synthsandbox img {
+  width: 50%;
 }
