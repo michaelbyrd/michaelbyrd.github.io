@@ -66,6 +66,10 @@ h1 {
   color: grey;
 }
 
+.img-wrapper {
+  overflow: hidden;
+  height: 480px;
+}
 .synthsandbox img {
   width: 100%;
 }
