@@ -2,13 +2,11 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
-/*
-	Read Only by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/* Basic */
+/*main #A63E3E*/
+/*.color-primary-1 { color: #F6A8A8 }
+.color-primary-2 { color: #CB6A6A }
+.color-primary-3 { color: #831F1F }
+.color-primary-4 { color: #590606 }*/
 
 	body {
 		background: #fff;
@@ -35,7 +33,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #A63E3E !important;
 		}
 
 	strong, b {
@@ -187,7 +185,7 @@
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #A63E3E;
 		font-size: 3.5em;
 	}
 
@@ -251,7 +249,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #A63E3E;
 		}
 
 	.select-wrapper {
@@ -362,7 +360,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4acaa8;
+			border-color: #A63E3E;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -554,7 +552,7 @@
 				}
 
 				ul.feature-icons li:before {
-					background: #4acaa8;
+					background: #A63E3E;
 					border-radius: 100%;
 					color: #ffffff;
 					display: block;
@@ -843,7 +841,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #4acaa8;
+			background-color: #A63E3E;
 			color: #ffffff !important;
 		}
 
@@ -913,8 +911,8 @@
 /* Header */
 
 	#header {
-		background: #4acaa8;
-		color: #d1f1e9;
+		background: #A63E3E;
+		color: #A63E3E;
 		height: 100%;
 		position: fixed;
 		text-align: center;
@@ -936,7 +934,7 @@
 		}
 
 		#header a {
-			color: #d1f1e9;
+			color: #A63E3E;
 		}
 
 			#header a:hover {
@@ -959,7 +957,7 @@
 			}
 
 			#header > header p {
-				color: #d1f1e9;
+				color: #A63E3E;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -987,7 +985,7 @@
 		}
 
 			#header > nav ul li {
-				border-top: solid 2px #5ccfb0;
+				border-top: solid 2px #A63E3E;
 				display: block;
 				padding: 0;
 			}
@@ -1007,7 +1005,7 @@
 
 					#header > nav ul li a.active {
 						background: #fff;
-						color: #4acaa8 !important;
+						color: #A63E3E !important;
 					}
 
 				#header > nav ul li:first-child {
